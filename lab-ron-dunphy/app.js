@@ -5,8 +5,8 @@ const assert = require('assert');
 
 
 describe('testing greet module', function(){
-  it('should return hello slug new', function(){
-    var result = greet('slug neo');
-    assert.equal(result, 'hello slug neo', 'expected "hello slug neo"');
+  it('should return Ron', function(){
+    var result = greet('Ron');
+    assert.equal(result, 'hello Ron', 'expected "hello Ron"');
   });
 });
